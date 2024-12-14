@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCA8;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1B221B;
+    padding: 0 48px;
+}
+
+.nav-title{
+    font-family: 'Sansita Swashed';
+    color: #1B221B;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+}
+
+.nav-links > a{
+    color: #1B221B;
+    font-family: 'Montagu Slab';
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main{
+    margin: 48px 48px 96px 48px;
+}
+
+#hero-section{
+    padding: 72px 0;
+}
+
+.hero-text{
+    margin-bottom: 48px;
+    font-family: Montagu Slab;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    text-align: center;
+    color: #1B221B;
+}
+
+.hero-img{
+    width: 100%;
+    border-radius: 28px;
+    border: 1px solid #1B221B;
+}
+
+#projects-section{
+    padding: 48px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 48px;
+    row-gap: 48px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-cover{
+    width: 100%;
+    margin-bottom: 8px;
+    border: 1px solid #1B221B;
+}
+
+.project-title{
+    font-family: Cutive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1B221B;
+}
+
+.project-type{
+    font-family: Cutive;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1B221B;
+}
+
+#about-me{
+    color: #1B221B;
+    max-width: 900px;
+    font-family: Montagu Slab;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto 96px auto;
+}
+
+.project-highlights{
+    width: 900px;
+    margin: 48px auto 248px auto;
+}
+
+.project-highlights caption{
+    margin-bottom: 24px;
+    font-family: Montagu Slab;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #1B221B;
+}
+
+.project-highlights th, td{
+    font-family: Cutive;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #1B221B;
+}
+
+#impact{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+}
+
+#impact div{
+    flex: 1;
+}
+
+.impact-title{
+    width: 648px;;
+    font-family: Cutive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #1B221B;
+}
+
+#discover{
+    padding: 220px 0;
+    text-align: center;
+}
+
+#discover > h2{
+    margin-bottom: 16px;
+    font-family: Montagu Slab;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    color: #1B221B;
+}
+
+#discover > h3{
+    margin-bottom: 48px;
+    font-family: Cutive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #1B221B;
+}
+
+#discover > button{
+    padding: 12px 24px;
+    background-color: #026600;
+    border-radius: 8px;
+    font-family: 'Spline Sans Mono';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+
+footer{
+    padding: 120px 48px 32px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #1B221B;
+}
+
+.copyright{
+    font-family: Montagu Slab;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #1B221B;
+}
+
+#contact{
+    padding: 12px 24px;
+    border: 1.5px solid #1B221B;
+    border-radius: 8px;
+    font-family: 'Spline Sans Mono';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1B221B;
+}
