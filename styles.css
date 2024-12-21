@@ -62,8 +62,7 @@ main{
     padding: 48px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 48px;
-    row-gap: 48px;
+    gap: 48px;
 }
 
 .project{
@@ -213,4 +212,79 @@ footer{
     font-weight: 500;
     line-height: 24px;
     color: #1B221B;
+}
+@media screen and (max-width: 1024px) and (min-width:768px) {
+    .hero-text{
+        font-size: 4em;
+        line-height: 1.2em;
+    }
+    #about-me{
+        font-size:2.5em;
+        line-height:1em;
+    }
+    #discover>h2{
+        font-size:2.5em;
+        line-height:1em;
+    }
+    #discover>h3{
+        font-size:1em;
+        line-height:1em;
+    }
+    .project-highlights{
+        width: 100%;
+    }
+    #projects-section{
+        gap: 20px;
+    }
+  .project>img{
+    width:80%;
+
+
+}
+}
+
+@media screen and (max-width: 767px) and (min-width:481px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid black;
+        margin: 10px 20px;
+    }
+    .nav-links>a{
+        font-size: 1.5em;
+    }
+    .hero-text{
+        font-size: 3em;
+        line-height: 1.2em;
+    }
+    #about-me{
+        font-size:2.5em;
+        line-height:1em;
+    }
+    #discover>h2{
+        font-size:2.5em;
+        line-height:1em;
+    }
+    #discover>h3{
+        font-size:1em;
+        line-height:1em;
+    }
+    .project-highlights{
+        width: 100%;
+    }
+    #projects-section{
+        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+  .project>img{
+    width:100%;
+
+
+}
 }
